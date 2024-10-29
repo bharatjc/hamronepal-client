@@ -5,6 +5,7 @@ import Message from "./Components/Message";
 import RightLinks from "./Components/RightLinks";
 import Scheme from "./Components/Scheme";
 import Assets from "./Components/Assets";
+import Remittance from "./Components/Remittance";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Message/>
       <Scheme/>
       <Assets/>
+      <Remittance/>
       <Footer/>
     </>
   );
