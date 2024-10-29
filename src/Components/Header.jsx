@@ -7,7 +7,7 @@ import { TiThMenu } from "react-icons/ti";
 
 function Header() {
 
-  const [menu, setMenu] = useState(true)
+  const [menu, setMenu] = useState(false)
   return (
     <>
     <div className='h-[105px] w-full gap-y-3 flex flex-col md:grid md:grid-cols-4 px-[15px]'>
