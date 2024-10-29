@@ -65,7 +65,7 @@ function Remittance() {
                 </div>
             </Carousel>
 
-<div className='flex flex-wrap justify-center items-center mt-2 md:mt-20 gap-x-10'>
+<div className='flex flex-wrap justify-center items-center mt-2 md:mt-20 gap-10'>
 <div className='h-[200px] w-[160px] p-[16px] flex flex-col items-center justify-between shadow-md rounded-md'>
   <div className='h-[80px] w-[51px] flex justify-center items-center'>
   <FaCalculator className='h-full w-full text-[#2CB02C]'/>

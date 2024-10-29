@@ -11,11 +11,11 @@ import { FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <div className='h-[348px] w-full'>
-      <div className='gap-y-3 bg-[#00A551] px-[18px] md:px-[50px] py-[24px] flex justify-between flex-wrap'>
+      <div className='gap-y-3 bg-[#00A551] px-[18px] md:px-[50px] py-[28px] flex justify-between flex-wrap'>
         <div className='text-white mt-[16px]'>
-          <h2 className='text-[20px] font-bold mb-[10px]'>Office Address</h2>
+          <h2 className='text-[28px] md:text-[20px] font-bold mb-[10px]'>Office Address</h2>
           <hr className="border-[#107916]"/>
-          <ul className='gap-4 flex flex-col mt-[16px] text-[14px] font-semibold'>
+          <ul className='gap-3 flex flex-col mt-[16px] text-[16px] md:text-[14px] font-semibold'>
             <li className='flex items-center gap-2'><HiMapPin className='text-xl'/>Birtamode 04, Jhapa</li>
             <li className='flex items-center gap-2'><FaPhone className='text-xl'/>023-535355</li>
             <li className='flex items-center gap-2'><HiOutlineMail className='text-xl'/>hamronepalcoop@gmail.com</li>
@@ -23,9 +23,9 @@ function Footer() {
         </div>
 
         <div className='text-white mt-[16px] w-[232px]'>
-          <h2 className='text-[20px] font-bold mb-[10px]'>Quick-Links</h2>
+          <h2 className='text-[28px] md:text-[20px] font-bold mb-[10px]'>Quick-Links</h2>
           <hr className="border-[#107916]"/>
-          <ul className='gap-2 flex flex-col mt-[16px] text-[14px] font-semibold'>
+          <ul className='gap-2 flex flex-col mt-[16px] text-[16px] md:text-[14px] font-semibold'>
             <li className='flex items-center gap-1'><MdKeyboardArrowRight className='text-2xl'/>
             Annual Calender</li>
             <li className='flex items-center gap-1'><MdKeyboardArrowRight className='text-2xl'/>Important Links</li>
@@ -38,9 +38,9 @@ function Footer() {
 
         
         <div className='text-white mt-[16px] w-[232px]'>
-          <h2 className='text-[20px] font-bold mb-[10px]'>Services</h2>
+          <h2 className='text-[28px] md:text-[20px] font-bold mb-[10px]'>Services</h2>
           <hr className="border-[#107916]"/>
-          <ul className='gap-2 flex flex-col mt-[16px] text-[14px] font-semibold'>
+          <ul className='gap-2 flex flex-col mt-[16px] text-[16px] md:text-[14px] font-semibold'>
             <li className='flex items-center gap-1'><MdKeyboardArrowRight className='text-2xl'/>
             Remittance</li>
             <li className='flex items-center gap-1'><MdKeyboardArrowRight className='text-2xl'/>Saving Schemes</li>
@@ -50,7 +50,7 @@ function Footer() {
         </div>
         
         <div className='text-white mt-[16px] w-[232px]'>
-          <h2 className='text-[20px] font-bold mb-[10px]'>Newsletter</h2>
+          <h2 className='text-[28px] md:text-[20px] font-bold mb-[10px]'>Newsletter</h2>
           <hr className="border-[#107916]"/>
           <ul className='gap-4 flex flex-col mt-[16px]'>
            <input type="text" className='h-[50px] px-5 text-[14px]' placeholder='Email Address'/>
