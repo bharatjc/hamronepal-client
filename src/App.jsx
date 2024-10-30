@@ -1,25 +1,35 @@
-import Header from "./Components/Header";
-import Banner from "./Components/Banner";
-import Footer from "./Components/Footer";
-import Message from "./Components/Message";
-import RightLinks from "./Components/RightLinks";
-import Scheme from "./Components/Scheme";
-import Assets from "./Components/Assets";
-import Remittance from "./Components/Remittance";
+import { createRoot } from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+import Home from "./Pages/Home";
+import FAQ from "./Pages/FAQ";
+
 
 function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: (
+       <Home/>
+      ),
+    },
+    {
+      path: "faq",
+      element: <FAQ />,
+    },
+  ]);
+  
   return (
-    <>
-      <Header />
-      <Banner />
-      <RightLinks/>
-      <Message/>
-      <Scheme/>
-      <Assets/>
-      <Remittance/>
-      <Footer/>
-    </>
+    <div>
+    <RouterProvider router={router} />
+  </div>
   );
+
 }
 
 export default App;
