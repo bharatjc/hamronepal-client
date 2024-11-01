@@ -55,7 +55,7 @@ function Header() {
 
 {menu && (
             <ul className='absolute top-10 left-0 bg-[#008C44] p-5 font-bold flex flex-col text-white gap-4'>
-              <li>HOME</li><hr />
+              <li><Link to="/">HOME</Link></li><hr />
               <li><div className='flex items-center' onClick={()=>handleClick(1)
              }>
           ABOUT US
@@ -126,7 +126,7 @@ function Header() {
       </div>
     
       <ul className='hidden md:flex justify-between px-[20px] items-center h-full w-[95%] text-[12px] lg:text-[15px] font-semibold text-white'>
-        <li className='cursor-pointer'>HOME</li>
+        <li className='cursor-pointer'><Link to="/">HOME</Link></li>
         <li className='cursor-pointer relative group'>
           <div className='flex items-center'>
           ABOUT US

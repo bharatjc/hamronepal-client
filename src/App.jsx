@@ -7,7 +7,8 @@ import {
 } from "react-router-dom";
 import Home from "./Pages/Home";
 import FAQ from "./Pages/FAQ";
-
+import Welcome from "./Pages/Welcome";
+import ChairmanMsg from "./Pages/ChairmanMsg";
 
 function App() {
 
@@ -21,6 +22,14 @@ function App() {
     {
       path: "faq",
       element: <FAQ />,
+    },
+    {
+      path: "welcome",
+      element: <Welcome />,
+    },
+    {
+      path: "chairman-msg",
+      element: <ChairmanMsg />,
     },
   ]);
   
